@@ -13,7 +13,7 @@ const links = [
 
 const Menu = () => {
     const [Open,SetOpen] = useState(false)
-    const [User,SetUser] = useState()
+    const [User,SetUser] = useState(false)
   return (
     <div>
         {!Open ? (
